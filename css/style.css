@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+header {
+  height: 95px;
+  padding: 0 20px;
+  border-bottom: 1px solid lightgrey;
+  color: #5f6368;
+}
+
+header a {
+  color: #5f6368;
+}
+
+/* header-top */
+.header-top {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top > div {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.header-top .logo img {
+  width: 74px;
+  margin-right: 10px;
+}
+
+.header-top .logo a {
+  font-size: 20px;
+}
+
+.header-top .account i {
+  font-size: 18px;
+}
+
+.header-top .account span{
+  margin-left: 20px;
+  padding: 7px 12px;
+  border-radius: 50%;
+  background-color: #33691e;
+  color: white;
+}
+
+/* header-bottom */
+.header-bottom {
+  height: 37px;
+}
+
+.header-bottom ul {
+  display: flex;
+}
+
+.header-bottom ul li {
+  padding: 0 2px;
+  height: 37px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom ul li.active {
+  border-bottom: 2px solid #3367d6;
+}
+
+.header-bottom ul li.active a {
+  color: #3367d6;
+}
