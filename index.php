@@ -104,18 +104,18 @@
     <main>
 
       <div class="container">
-
-        <h2>
-          Testo prova
-        </h2>
-
-        <p>
-          Paragrafo prova
-        </p>
-
-        <p>
-          Paragrafo prova
-        </p>
+        <?php
+          foreach ($faq as $k => $question) {
+            ?>
+              <h2><?php echo $question["domanda"]; ?></h2>
+            <?php
+            foreach ($question["paragrafi"] as $paragrafo) {
+              ?>
+              <p><?php echo $paragrafo ?></p>
+              <?php
+            }
+          }
+         ?>
 
       </div>
 
