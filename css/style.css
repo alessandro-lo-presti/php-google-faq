@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1042px;
+  margin: auto;
+}
+
 /* header */
 header {
   height: 95px;
@@ -85,4 +90,21 @@ header a {
 
 .header-bottom ul li.active a {
   color: #3367d6;
+}
+
+/* main */
+main .container {
+  margin-top: 22px;
+}
+
+main h2 {
+  padding-top: 64px;
+  font-size: 24px;
+}
+
+main p {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  line-height: 24px;
+  font-size: 14px;
 }
