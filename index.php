@@ -121,6 +121,33 @@
 
     </main>
 
+    <footer>
+
+      <div class="container">
+
+        <ul>
+          <li>
+            <a href="#">Google</a>
+          </li>
+          <li>
+            <a href="#">Tutto su Google</a>
+          </li>
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+          <li>
+            <a href="#">Termini</a>
+          </li>
+        </ul>
+
+        <select class="" name="">
+          <option value="">Italiano</option>
+        </select>
+
+      </div>
+
+    </footer>
+
   </body>
 
 </html>

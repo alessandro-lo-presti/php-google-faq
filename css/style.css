@@ -110,3 +110,25 @@ main p {
   font-size: 14px;
   color: #242424;
 }
+
+/* footer */
+footer .container {
+  height: 60px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer a {
+  color: grey;
+  font-size: 11px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
